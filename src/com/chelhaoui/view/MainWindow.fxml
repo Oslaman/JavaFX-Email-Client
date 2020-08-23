@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="421.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="697.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+                  <MenuItem mnemonicParsing="false" text="Open" />
+                  <MenuItem mnemonicParsing="false" onAction="#onActionLogOut" text="Log out" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#optionsAction" text="Options" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TreeView fx:id="emailsTreeView" layoutY="24.0" prefHeight="403.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="497.0" AnchorPane.topAnchor="24.0" />
+      <WebView fx:id="emailsWebView" layoutX="200.0" layoutY="227.0" prefHeight="200.0" prefWidth="497.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="224.0" />
+      <TableView fx:id="emailsTableView" layoutX="200.0" layoutY="27.0" prefHeight="200.0" prefWidth="498.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="24.0">
+        <columns>
+          <TableColumn prefWidth="105.0" text="Sender" />
+          <TableColumn prefWidth="104.0" text="Subject" />
+            <TableColumn prefWidth="129.0" text="Recipient" />
+            <TableColumn prefWidth="53.0" text="Size" />
+            <TableColumn minWidth="-1.0" prefWidth="105.0" text="Date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

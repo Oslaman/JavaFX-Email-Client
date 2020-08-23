@@ -1,0 +1,54 @@
+*{
+    -fx-primary: #2a2929;
+    -fx-secondary: #000000;
+}
+AnchorPane{
+    -fx-background-color: #262626;
+}
+
+
+.big{
+   -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+}
+
+
+Button, Label, TextField, ChoiceBox, Slider{
+    -fx-text-fill: #f0f8ff;
+}
+
+Button{
+    -fx-background-color: #000000;
+
+}
+Button:hover{
+
+
+}
+
+ChoiceBox > *{
+    -fx-background-color: #000000;
+}
+
+Slider .axis{
+    -fx-tick-label-fill: white;
+}
+
+Slider .track{
+    -fx-background-color: #000000;
+}
+Slider .thumb{
+    -fx-background-color: #2a2929;
+}
+.menu-bar {
+    -fx-base: -fx-primary;
+    -fx-background-color: -fx-primary;
+}
+.context-menu{
+    -fx-background-color: derive(-fx-primary, 20%);
+}
+
+TableView, TreeView {
+    -fx-base: -fx-primary;
+    -fx-background-color: -fx-primary;
+}
