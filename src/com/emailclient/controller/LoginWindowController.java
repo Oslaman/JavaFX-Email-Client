@@ -34,6 +34,7 @@ public class LoginWindowController extends BaseController {
         if(validFields()){
             EmailAccount emailAccount = new EmailAccount(emailField.getText(), passwordField.getText());
             LoginService loginService = new LoginService(emailAccount, emailManager);
+            loginService.start();
             loginService.setOnSucceeded(event -> {
                 EmailLoginResult emailLoginResult = loginService.getValue();
                 switch (emailLoginResult){
@@ -43,11 +44,16 @@ public class LoginWindowController extends BaseController {
                         Stage stage = (Stage) emailField.getScene().getWindow();
                         viewFactory.closeStage(stage);
                         break;
+                    /*case FAILED_AUTH:
+                        errorLabel.setText("Wrong email/password");
+                        return;
+                    case UNKNOWN_ERROR:
+                        errorLabel.setText("Unknown error");
+                        return;
+                    default: return;*/
                 }
             });
         }
-
-        System.out.println("button pressed");
     }
 
     private boolean validFields() {
