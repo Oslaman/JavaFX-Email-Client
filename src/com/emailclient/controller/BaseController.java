@@ -1,7 +1,7 @@
-package com.chelhaoui.controller;
+package com.emailclient.controller;
 
-import com.chelhaoui.EmailManager;
-import com.chelhaoui.view.ViewFactory;
+import com.emailclient.EmailManager;
+import com.emailclient.view.ViewFactory;
 
 public class BaseController {
     protected EmailManager emailManager;

@@ -1,10 +1,9 @@
-package com.chelhaoui.controller;
+package com.emailclient.controller;
 
-import com.chelhaoui.EmailManager;
-import com.chelhaoui.controller.BaseController;
-import com.chelhaoui.controller.services.LoginService;
-import com.chelhaoui.module.EmailAccount;
-import com.chelhaoui.view.ViewFactory;
+import com.emailclient.EmailManager;
+import com.emailclient.controller.services.LoginService;
+import com.emailclient.module.EmailAccount;
+import com.emailclient.view.ViewFactory;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;

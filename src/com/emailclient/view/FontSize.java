@@ -1,4 +1,4 @@
-package com.chelhaoui.view;
+package com.emailclient.view;
 
 public enum FontSize {
     Small,

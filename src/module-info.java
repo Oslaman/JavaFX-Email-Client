@@ -6,7 +6,7 @@ module EmailClient {
     requires java.mail;
     requires activation;
 
-    opens com.chelhaoui;
-    opens com.chelhaoui.view;
-    opens com.chelhaoui.controller;
+    opens com.emailclient;
+    opens com.emailclient.view;
+    opens com.emailclient.controller;
 }

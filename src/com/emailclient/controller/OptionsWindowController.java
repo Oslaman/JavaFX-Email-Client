@@ -1,13 +1,12 @@
-package com.chelhaoui.controller;
+package com.emailclient.controller;
 
-import com.chelhaoui.EmailManager;
-import com.chelhaoui.view.ColorTheme;
-import com.chelhaoui.view.FontSize;
-import com.chelhaoui.view.ViewFactory;
+import com.emailclient.EmailManager;
+import com.emailclient.view.ColorTheme;
+import com.emailclient.view.FontSize;
+import com.emailclient.view.ViewFactory;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.Scene;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Slider;
 import javafx.stage.Stage;

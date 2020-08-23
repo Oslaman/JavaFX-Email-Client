@@ -1,4 +1,4 @@
-package com.chelhaoui.module;
+package com.emailclient.module;
 
 import javax.mail.Store;
 import java.util.Properties;

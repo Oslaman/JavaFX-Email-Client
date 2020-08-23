@@ -1,8 +1,8 @@
-package com.chelhaoui.controller.services;
+package com.emailclient.controller.services;
 
-import com.chelhaoui.EmailManager;
-import com.chelhaoui.controller.EmailLoginResult;
-import com.chelhaoui.module.EmailAccount;
+import com.emailclient.EmailManager;
+import com.emailclient.controller.EmailLoginResult;
+import com.emailclient.module.EmailAccount;
 import javafx.concurrent.Service;
 import javafx.concurrent.Task;
 

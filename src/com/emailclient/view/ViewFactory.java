@@ -1,10 +1,10 @@
-package com.chelhaoui.view;
+package com.emailclient.view;
 
-import com.chelhaoui.EmailManager;
-import com.chelhaoui.controller.BaseController;
-import com.chelhaoui.controller.LoginWindowController;
-import com.chelhaoui.controller.MainWindowController;
-import com.chelhaoui.controller.OptionsWindowController;
+import com.emailclient.EmailManager;
+import com.emailclient.controller.BaseController;
+import com.emailclient.controller.LoginWindowController;
+import com.emailclient.controller.MainWindowController;
+import com.emailclient.controller.OptionsWindowController;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;

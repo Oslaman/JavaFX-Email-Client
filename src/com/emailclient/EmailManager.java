@@ -1,4 +1,4 @@
-package com.chelhaoui;
+package com.emailclient;
 
 public class EmailManager {
 }

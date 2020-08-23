@@ -1,4 +1,4 @@
-package com.chelhaoui.controller;
+package com.emailclient.controller;
 
 public enum EmailLoginResult {
     SUCCESS,
